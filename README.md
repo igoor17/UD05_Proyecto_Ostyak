@@ -35,18 +35,15 @@ Para reproducir el entrenamiento y la evaluación de los modelos:
 2. El archivo `UD05_Proyecto_Ostyak_Fase1.ipynb` se incluye para mantener el historial de la entrega, pero no es necesario ejecutarlo previamente para que funcione la Fase 2.
 
 ### 3. Aplicación Web (Bonus)
-Para probar la aplicación interactiva de clasificación, abre una terminal en la raíz del proyecto y ejecuta:
+Acceso a la Demo:
+La aplicación interactiva se encuentra desplegada en Streamlit Community Cloud:
+Para ejecutar la aplicación localmente, abre una terminal en la raíz del proyecto y ejecuta:
 
     streamlit run bonus/app.py
 
 Esto abrirá una interfaz en tu navegador (por defecto en `http://localhost:8501`) donde podrás subir imágenes y obtener diagnósticos asistidos por IA.
 
-### 4. Script de inferencia individual
-Para clasificar una imagen directamente por consola sin levantar el entorno gráfico:
-
-    python inferencia.py --imagen ruta/a/tu/imagen.jpg
-
-    ## Resultados principales
+## Resultados principales
 - **Dataset:** Brain Tumor MRI Dataset
 - **Accuracy objetivo:** >=78%
 - **Accuracy inicial (Fase 1, `CNN_3B`):** 90.87%
