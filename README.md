@@ -41,7 +41,7 @@ Para ejecutar la aplicación localmente, abre una terminal en la raíz del proye
 
     streamlit run bonus/app.py
 
-Esto abrirá una interfaz en tu navegador (por defecto en `http://localhost:8501`) donde podrás subir imágenes y obtener diagnósticos asistidos por IA.
+Esto abrirá una interfaz en tu navegador donde podrás subir imágenes y obtener diagnósticos asistidos por IA.
 
 ## Resultados principales
 - **Dataset:** Brain Tumor MRI Dataset
