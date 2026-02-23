@@ -37,6 +37,9 @@ Para reproducir el entrenamiento y la evaluación de los modelos:
 ### 3. Aplicación Web (Bonus)
 Acceso a la Demo:
 La aplicación interactiva se encuentra desplegada en Streamlit Community Cloud:
+
+https://clasificador-tumores-mri.streamlit.app/[https://clasificador-tumores-mri.streamlit.app/]
+
 Para ejecutar la aplicación localmente, abre una terminal en la raíz del proyecto y ejecuta:
 
     streamlit run bonus/app.py
